@@ -14,13 +14,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Functionalities:
+1. One can add one or more boxes with unique ID using the "Add Boxes" button.
+2. One can select a box on clicking it.
+3. One can delete a box either by clicking on the "Remove Boxes" button or by pressing "Delete" button on keyboard, after selecting the box to delete.
+4. One can move a box by WASD or arrow keys after selecting a box.
+5. One can disable the keyboard keys by clicking on the "Disable listener" button. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Note: 
+This is a matrix with a hard-coded value of 9 boxes.
 
 ## Further help
 
